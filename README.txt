@@ -1,4 +1,4 @@
-Doubly linked list created on Solidity
+Doubly linked list on Solidity
 Functions:
 1 addFirst - add to start
 2 addLast - add to the end
