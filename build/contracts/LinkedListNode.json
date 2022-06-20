@@ -1,0 +1,172 @@
+{
+  "contractName": "LinkedListNode",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.13+commit.abaa5c0e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/LinkedListNode.sol\":\"LinkedListNode\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/LinkedListNode.sol\":{\"keccak256\":\"0xbf70eb1de47485996eec4c58cb29c791eb1f8b2f8e1f2eccd83c3a5ac67848dc\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b8d024704f92c30d09010af1b9e9d2e58e1640e77f81f3d7346811df031ee4a5\",\"dweb:/ipfs/QmdXmNgaLiKKQ9zpEvBmx4KX5qw3ZfhPxpBmcpts5oo6nN\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220f43c7283e1ef4792a4d30bdae8973c7784251f600855337438a9d55ba2ef180264736f6c634300080d0033",
+  "deployedBytecode": "0x6080604052600080fdfea2646970667358221220f43c7283e1ef4792a4d30bdae8973c7784251f600855337438a9d55ba2ef180264736f6c634300080d0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:103:1:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "66:103:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract LinkedListNode {\n\n  struct Node{\n    uint value;\n    bytes32 next;\n    bytes32 previous;\n  }\n}\n",
+  "sourcePath": "C:\\MainFolder\\Education\\Solidity\\LinkedList\\contracts\\LinkedListNode.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/LinkedListNode.sol",
+    "exportedSymbols": {
+      "LinkedListNode": [
+        687
+      ]
+    },
+    "id": 688,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 679,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "LinkedListNode",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 687,
+        "linearizedBaseContracts": [
+          687
+        ],
+        "name": "LinkedListNode",
+        "nameLocation": "75:14:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "LinkedListNode.Node",
+            "id": 686,
+            "members": [
+              {
+                "constant": false,
+                "id": 681,
+                "mutability": "mutable",
+                "name": "value",
+                "nameLocation": "117:5:1",
+                "nodeType": "VariableDeclaration",
+                "scope": 686,
+                "src": "112:10:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_uint256",
+                  "typeString": "uint256"
+                },
+                "typeName": {
+                  "id": 680,
+                  "name": "uint",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "112:4:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 683,
+                "mutability": "mutable",
+                "name": "next",
+                "nameLocation": "136:4:1",
+                "nodeType": "VariableDeclaration",
+                "scope": 686,
+                "src": "128:12:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 682,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "128:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "visibility": "internal"
+              },
+              {
+                "constant": false,
+                "id": 685,
+                "mutability": "mutable",
+                "name": "previous",
+                "nameLocation": "154:8:1",
+                "nodeType": "VariableDeclaration",
+                "scope": 686,
+                "src": "146:16:1",
+                "stateVariable": false,
+                "storageLocation": "default",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_bytes32",
+                  "typeString": "bytes32"
+                },
+                "typeName": {
+                  "id": 684,
+                  "name": "bytes32",
+                  "nodeType": "ElementaryTypeName",
+                  "src": "146:7:1",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bytes32",
+                    "typeString": "bytes32"
+                  }
+                },
+                "visibility": "internal"
+              }
+            ],
+            "name": "Node",
+            "nameLocation": "102:4:1",
+            "nodeType": "StructDefinition",
+            "scope": 687,
+            "src": "95:72:1",
+            "visibility": "public"
+          }
+        ],
+        "scope": 688,
+        "src": "66:103:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:138:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.13+commit.abaa5c0e.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-06-20T21:23:14.058Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
